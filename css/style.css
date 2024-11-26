@@ -1,3 +1,5 @@
+/* reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -48,6 +50,7 @@ a {
     width: 100%;
 }
 
+
 /* price */
 
 .new-price {
@@ -57,6 +60,7 @@ a {
 .old-price {
     text-decoration: line-through;
 }
+
 
 /* label positions*/
 
@@ -78,6 +82,7 @@ a {
     left: 0;
 }
 
+
 /*general label style */
 
 .sales,
@@ -94,6 +99,7 @@ a {
     padding: 5px;
 }
 
+
 /* single label */
 
 .single-sustainable,
@@ -102,6 +108,27 @@ a {
     left: 0;
     bottom: 80px;
 }
+
+
+/* hover properties */
+
+.add-favorite:hover {
+    color: rgb(252, 218, 0);
+    cursor: pointer;
+}
+
+.product:hover .img-default {
+    display: none;
+}
+
+.img-hover {
+    display: none;
+}
+
+.product:hover .img-hover {
+    display: initial;
+}
+
 
 /* footer */
 
