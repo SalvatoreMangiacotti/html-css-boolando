@@ -35,16 +35,72 @@ a {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap:15px;
-    width:80%;
+    gap: 15px;
+    width: 80%;
 }
 
 .product {
     width: 30%;
+    position: relative;
 }
 
 .product img {
     width: 100%;
+}
+
+/* price */
+
+.new-price {
+    color: red;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+/* label positions*/
+
+.add-favorite {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px 0;
+    padding: 10px 15px;
+    font-size: 30px;
+    background-color: white;
+}
+
+.label-wrap {
+    display: flex;
+    position: absolute;
+    gap: 10px;
+    bottom: 80px;
+    left: 0;
+}
+
+/*general label style */
+
+.sales,
+.single-sales {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+.sustainable,
+.single-sustainable {
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+/* single label */
+
+.single-sustainable,
+.single-sales {
+    position: absolute;
+    left: 0;
+    bottom: 80px;
 }
 
 /* footer */
