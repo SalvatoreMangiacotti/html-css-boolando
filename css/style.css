@@ -64,8 +64,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 8rem;
-    padding-bottom: 5rem;
+    padding: 8rem 3rem 5rem 3rem;
 }
 
 #card-container {
@@ -79,11 +78,14 @@ header {
 
 .product {
     width: 30%;
-    position: relative;
 }
 
 .product img {
     width: 100%;
+}
+
+.img-container {
+    position: relative;
 }
 
 
@@ -114,7 +116,7 @@ header {
     display: flex;
     position: absolute;
     gap: 10px;
-    bottom: 80px;
+    top: 80%;
     left: 0;
 }
 
@@ -142,7 +144,7 @@ header {
 .single-sales {
     position: absolute;
     left: 0;
-    bottom: 80px;
+    top: 80%;
 }
 
 
