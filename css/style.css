@@ -101,7 +101,7 @@ header {
 }
 
 
-/* label positions*/
+/* add favorite*/
 
 .add-favorite {
     position: absolute;
@@ -113,41 +113,27 @@ header {
     background-color: white;
 }
 
-.label-wrap {
-    display: flex;
-    position: absolute;
-    gap: 10px;
-    top: 80%;
-    left: 0;
-}
-
-
 /*general label style */
 
-.sales,
-.single-sales {
+.sales {
     background-color: red;
     color: white;
     padding: 5px;
 }
 
-.sustainable,
-.single-sustainable {
+.sustainable {
     background-color: green;
     color: white;
     padding: 5px;
 }
 
-
-/* single label */
-
-.single-sustainable,
-.single-sales {
+.label-wrap {
+    display: flex;
     position: absolute;
+    gap: 10px;
+    top: 85%;
     left: 0;
-    top: 80%;
 }
-
 
 /* hover properties */
 
